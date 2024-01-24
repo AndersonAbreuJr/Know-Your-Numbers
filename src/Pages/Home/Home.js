@@ -1,4 +1,9 @@
 const Home = () => {
+
+    const handleClick = () => {
+        console.log('it is working!');
+    }
+
     return (
         <div className="home">
             <h2>HOME</h2>
